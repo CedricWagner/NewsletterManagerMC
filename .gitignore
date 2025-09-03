@@ -1,0 +1,25 @@
+.idea/
+mutagen.yml.lock
+.env
+
+sites/*/
+sites/*/private/
+# Ignore sensitive information
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Ignore Drupal's file directory
+/web/sites/*/files/
+/private/
+
+core/
+vendor/
+/drush/contrib/
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+sites/default/private/
