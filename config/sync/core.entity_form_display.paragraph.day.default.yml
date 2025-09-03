@@ -1,0 +1,43 @@
+uuid: 172c49c2-932b-4148-b827-e85ae309b88a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.day.field_date
+    - field.field.paragraph.day.field_illustration
+    - field.field.paragraph.day.field_items
+    - paragraphs.paragraphs_type.day
+  module:
+    - datetime
+    - media_library
+id: paragraph.day.default
+targetEntityType: paragraph
+bundle: day
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_illustration:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_items:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

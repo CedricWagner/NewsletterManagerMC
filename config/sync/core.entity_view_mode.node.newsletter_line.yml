@@ -1,0 +1,11 @@
+uuid: ed8ce761-21a7-4787-83d7-f7a021cb2ee3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.newsletter_line
+label: 'Newsletter - ligne'
+description: null
+targetEntityType: node
+cache: true

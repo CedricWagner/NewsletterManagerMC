@@ -1,0 +1,31 @@
+uuid: 84ade886-51c4-491e-a0d0-df1f414ef722
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_days
+    - node.type.template
+    - paragraphs.paragraphs_type.day
+  module:
+    - entity_reference_revisions
+id: node.template.field_days
+field_name: field_days
+entity_type: node
+bundle: template
+label: Journées
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      day: day
+    negate: 0
+    target_bundles_drag_drop:
+      day:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

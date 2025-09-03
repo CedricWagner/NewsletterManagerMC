@@ -1,0 +1,11 @@
+enabled: true
+local_task_label: Cloner
+fields:
+  title:
+    id: entity_label_clone_suffix
+  field_dates:
+    id: copy_values
+  field_description:
+    id: copy_values
+  field_image:
+    id: copy_values

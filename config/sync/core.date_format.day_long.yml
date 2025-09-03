@@ -1,0 +1,8 @@
+uuid: 9a15795c-ce78-4913-823d-edf2a2c47c0b
+langcode: fr
+status: true
+dependencies: {  }
+id: day_long
+label: 'Jour long'
+locked: false
+pattern: 'l j'

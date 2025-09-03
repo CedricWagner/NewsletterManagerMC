@@ -1,0 +1,8 @@
+uuid: dabed010-8cdb-4c15-97dd-ade2d05dea79
+langcode: fr
+status: true
+dependencies: {  }
+id: horaire
+label: Horaire
+locked: false
+pattern: 'H:i'

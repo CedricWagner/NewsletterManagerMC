@@ -1,0 +1,11 @@
+uuid: 6164718f-fa40-458f-9880-520b8c764aad
+langcode: fr
+status: true
+dependencies: {  }
+name: Template
+type: template
+description: null
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

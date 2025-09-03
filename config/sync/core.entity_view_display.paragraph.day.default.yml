@@ -1,0 +1,44 @@
+uuid: f0366030-f9dd-44ad-9285-7d88718609dd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.day.field_date
+    - field.field.paragraph.day.field_illustration
+    - field.field.paragraph.day.field_items
+    - paragraphs.paragraphs_type.day
+  module:
+    - datetime
+id: paragraph.day.default
+targetEntityType: paragraph
+bundle: day
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: day_long
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_illustration:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_items:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: newsletter_line
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

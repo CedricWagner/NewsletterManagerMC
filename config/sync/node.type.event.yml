@@ -1,0 +1,11 @@
+uuid: fd056ad6-2e73-443f-b305-4532bd9a4757
+langcode: fr
+status: true
+dependencies: {  }
+name: Evenement
+type: event
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

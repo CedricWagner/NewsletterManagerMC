@@ -1,0 +1,23 @@
+uuid: 1940fbcb-084c-493e-8389-f5c082691e90
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.template
+id: node.template.field_year
+field_name: field_year
+entity_type: node
+bundle: template
+label: Année
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

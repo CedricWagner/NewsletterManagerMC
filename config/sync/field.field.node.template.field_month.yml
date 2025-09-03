@@ -1,0 +1,21 @@
+uuid: ff7ac431-d258-43e8-9dd9-ef375654ea84
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_month
+    - node.type.template
+  module:
+    - options
+id: node.template.field_month
+field_name: field_month
+entity_type: node
+bundle: template
+label: Mois
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

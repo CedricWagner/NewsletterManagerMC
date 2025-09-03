@@ -1,0 +1,29 @@
+uuid: d01edddb-150e-45ea-a978-643cc62ea497
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_items
+    - node.type.event
+    - paragraphs.paragraphs_type.day
+id: paragraph.day.field_items
+field_name: field_items
+entity_type: paragraph
+bundle: day
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      event: event
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
