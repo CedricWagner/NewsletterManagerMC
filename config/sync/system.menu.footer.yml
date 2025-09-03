@@ -1,0 +1,10 @@
+uuid: 2b7b38cd-9e97-47e1-a95f-9e45ebea35a9
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: 'Pied de page'
+description: "Liens d'informations sur le site"
+locked: true

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: fr
+uuid: bf88cc61-8b32-41ab-b673-42ec005cb008
+name: 'Générateur de Newsletter - Maison Citoyenne'
+mail: programmation@maison-citoyenne.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr
+mail_notification: null

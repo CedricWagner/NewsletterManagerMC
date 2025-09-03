@@ -1,0 +1,13 @@
+uuid: a2b4c60f-6c84-434c-b0b8-8fbe11c319f4
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 1TFiplNN7Wmj_DtVLLLP-NLPYpZJdAswKY-vTrYgFyo
+id: user.register
+label: "S'inscrire"
+description: null
+targetEntityType: user
+cache: true
